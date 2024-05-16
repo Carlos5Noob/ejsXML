@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+  <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" />
+
+  <!-- <xsl:strip-space elements="*"/> -->
+
+  <xsl:template match="/CATALOG">
+
+    <xsl:element name="coleccion">
+      <xsl:element name="propietario">
+        <xsl:value-of select="concat(OWNER, '(',OWNER/@country, ')')" />
+      </xsl:element>
+      <xsl:element name="localiza">
+        <xsl:value-of select="URL/LOCATION" />
+      </xsl:element>
+      <!--      Bucle para recorrer el catálogo      -->
+      <xsl:for-each select="CD">
+        <!--            <xsl:sort select="PRICE" order="descending" data-type="number" />
+                <xsl:sort select="YEAR" /> -->
+        <xsl:element name="disco">
+          <!-- <xsl:value-of select="PRICE" />
+                    <xsl:text> - </xsl:text>
+                    <xsl:value-of select="YEAR" />
+                    <xsl:text> - </xsl:text> -->
+          <xsl:value-of select="concat(ARTIST, ': ', TITLE)" />
+        </xsl:element>
+      </xsl:for-each>
+    </xsl:element>
+
+  </xsl:template>
+
+</xsl:stylesheet>

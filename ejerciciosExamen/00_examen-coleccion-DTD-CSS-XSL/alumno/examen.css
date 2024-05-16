@@ -1,0 +1,85 @@
+/*examen.css */
+
+
+propietario {
+    display: block;
+    font-weight: bold;
+}
+
+propietario::before {
+    content: "Coleccion peliculas de " ;
+}
+
+precioVenta {
+    display: block;
+    font-style: italic;
+}
+
+precioVenta::before {
+    content: "(Precio de venta: ";
+}
+
+precioVenta::after {
+    content: ")";
+}
+
+peliculas {
+    display: table;
+    border: 1px solid blue;
+    border-collapse: collapse;
+    counter-reset: npel;
+}
+
+filmoteca {
+    margin: 1em;
+}
+
+
+pelicula {
+    display: table-row;
+    border: 1px solid blue;
+    counter-increment: npel;
+}
+
+titulo::before {
+    content: counter(npel) " . ";
+}
+
+pelicula > * {
+    display: table-cell;
+    border: 1px solid blue;
+    padding-left: 1em;
+}
+
+tituloOriginal, cartel {
+    display: none;
+}
+
+director::before {
+    display: block;
+    content: "Director ";
+    color: red;
+}
+
+reparto::before {
+    display: block;
+    content: "Reparto";
+    color: red;
+}
+
+reparto {
+    width: 30%;
+    counter-reset: nactor;
+}
+
+actor {
+    display: list-item;
+    margin-left: 1em;
+    list-style-type: none;
+    counter-increment: nactor;
+}
+
+actor::before {
+    content: counter(npel) "." counter(nactor) " ";
+}
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nota SYSTEM "nota.dtd">
+<nota leido="no" borrar="si">
+  <fecha>
+    <dia>Lunes</dia>
+    <hora>3:33</hora>
+  </fecha>
+  <urgente/> <!-- es opcional -->
+  <de id="A123">Ana</de>  
+  <para id="B123">Luis</para>
+  <para id="C123">Alfredo</para>
+  <texto idioma="es">Te recuerdo que mañana tenemos reunión a las 14:00 para bla, bla, bla..</texto>
+</nota>

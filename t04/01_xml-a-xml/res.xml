@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Generando desde XSLT: transformo, ordeno y filtro-->
+<coleccion>
+  <propietario>Jess Arzak, uk</propietario>
+  <localiza>www.pruebas.local</localiza>
+  <disco>
+    <editado>1996</editado>
+    <autorTitulo>Andrea Bocelli: Romanza</autorTitulo>
+  </disco>
+  <disco>
+    <editado>1996</editado>
+    <autorTitulo>Jorn Hoel: Soulsville</autorTitulo>
+  </disco>
+  <disco>
+    <editado>1997</editado>
+    <autorTitulo>Eros Ramazzotti: Eros</autorTitulo>
+  </disco>
+  <disco>
+    <editado>1997</editado>
+    <autorTitulo>Will Smith: Big Willie style</autorTitulo>
+  </disco>
+  <disco>
+    <editado>1998</editado>
+    <autorTitulo>Bee Gees: One night only</autorTitulo>
+  </disco>
+  <disco>
+    <editado>1999</editado>
+    <autorTitulo>Many: 1999 Grammy Nominees</autorTitulo>
+  </disco>
+</coleccion>

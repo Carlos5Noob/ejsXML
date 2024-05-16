@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="proyecto" type="Tproyecto"></xs:element>
+
+    <xs:complexType name="Tproyecto">
+        <xs:sequence>
+            <xs:element name="datos_proyecto" type="Tdatos_proyecto"></xs:element>
+            <xs:element name="dedicatoria" type="Tdedicatoria" minOccurs="0" maxOccurs="1"></xs:element>
+            <xs:element name="apartado" type="Tapartado" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="lang" type="Tlang"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="Tdatos_proyecto">
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string" maxOccurs="1"></xs:element>
+            <xs:element name="autor" type="Tautor" maxOccurs="unbounded"></xs:element>
+            <xs:element name="fecha_publicacion" type="xs:date"></xs:element>
+            <xs:element name="paginas" type="Tpaginas"></xs:element>
+            <xs:element name="bibliografia" type="Tbibliografia" minOccurs="1"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="Tpaginas">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="100"></xs:minInclusive>
+            <xs:maxInclusive value="200"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    
+
+    <xs:complexType name="Tbibliografia">
+        <xs:sequence>
+            <xs:element name="referencia" type="Treferencia" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Treferencia">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute use="optional" name="enlace" type="xs:string"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="Tautor">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="apellidos" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tdedicatoria">
+        <xs:sequence>
+            <xs:element name="parrafo" type="Tparrafo" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tparrafo">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="estilo" type="xs:string"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="Tapartado">
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string"></xs:element>
+            <xs:element name="seccion" type="Tseccion" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute use="required" name="id" type="xs:string"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="Tseccion">
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string"></xs:element>
+            <xs:element name="parrafo" type="Tparrafo2" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tparrafo2">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="estilo" type="Testilo" default="normal"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="Testilo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="cita"></xs:enumeration>
+            <xs:enumeration value="codigo"></xs:enumeration>
+            <xs:enumeration value="revisar"></xs:enumeration>
+            <xs:enumeration value="normal"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Tlang">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="es"></xs:enumeration>
+            <xs:enumeration value="en"></xs:enumeration>
+            <xs:enumeration value="fr"></xs:enumeration>
+            <xs:enumeration value="ge"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+</xs:schema>

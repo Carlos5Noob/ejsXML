@@ -1,0 +1,44 @@
+CATALOG {
+  background-color: lightblue;
+  width: 70%;
+  margin: auto;
+  background-color: beige;
+}
+
+CD {
+  display: block;
+  margin-bottom: 30pt;
+  margin-left: 0;
+  border: double blue 3px;
+  text-align: center;
+  padding: 30px;
+  background-color: lightblue;
+}
+
+TITLE {
+  color: #ff0000;
+  font-size: 20pt;
+}
+
+ARTIST {
+  color: #0000ff;
+  font-size: 20pt;
+  display: block;
+}
+
+ARTIST::before {
+  content: "Autor: ";
+  color: #0000ff;
+  font-size: 14pt;
+  font-style: italic;
+  font-weight: bold;
+}
+
+COUNTRY,
+PRICE,
+YEAR,
+COMPANY {
+  display: block;
+  color: #000000;
+  margin-left: 20pt;
+}

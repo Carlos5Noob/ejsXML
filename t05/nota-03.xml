@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="nota-03-restricciones.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<nota>
+  <fecha>2024-04-01</fecha>
+  <prioridad>6</prioridad>
+  <de>Ana</de> 
+  <para>Luis</para>
+  <tema>Reunión</tema>
+  <texto>Te recuerdo que mañana tenemos reunión a las 14:00 para bla, bla, bla..</texto>
+</nota>

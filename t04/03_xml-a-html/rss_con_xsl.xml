@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/xsl" href='rsspretty.xsl' version='1.0'?>
+
+<rss xmlns:mscomdomain="http://msdn.microsoft.com/aboutmsdn/rss/domains" xmlns:mscom="http://msdn.microsoft.com/aboutmsdn/rss/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  
+  <channel>
+    <title>MSDN Just Published</title>
+    <link>http://msdn.microsoft.com/</link>
+    <description>Keep current with all the new technical articles, columns, specifications, and resources published on the Microsoft Developer Network (MSDN).</description>
+    <language>en-us</language>
+    <pubDate>Thu, 22 Jun 2006 13:02:23 GMT</pubDate>
+    <lastBuildDate>Thu, 22 Jun 2006 13:02:23 GMT</lastBuildDate>
+    <generator>MSDN and TechNet RSS Service 1.1.0.0</generator>
+    <ttl>1440</ttl>
+    <item>
+      <title>That's Totally Disco</title>
+      <description>Clint Rutkas describes his months-long quest to create a party dance floor for him and his friends to enjoy by combining his MacGyver-like talents with hardware and Visual C#.</description>
+      <link>http://msdn.microsoft.com/coding4fun/coolapplications/disco/default.aspx</link>
+      <dc:creator>Clint Rutkas</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Academics</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Game developers</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Audience">Students</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Development Language">C#</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">C#</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework 2.0</category>
+      <mscom:attribute>e87cc971-f25b-4b16-9c30-7e734338e227</mscom:attribute>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>fa1dbc53-210e-4f0f-91d9-f9bf4a4de090</mscom:attribute>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>ab97f406-5423-4718-91a5-a7fbc3f3807d</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>ed4263a6-cf84-4d66-b0fb-befccc28a9bd</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:attribute>ce1538e0-3dd9-4f14-b423-1d75e8f995b7</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 21</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8182</guid>
+      <pubDate>Wed, 21 Jun 2006 17:38:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Building a WPF Sudoku Game Part 2: The Board UI and Validation</title>
+      <description>In his second tutorial, Lucas Magder covers developing a custom control for the Sudoku board and databinding it to the game logic, using the advanced databinding features found in Windows Presentation Foundation.</description>
+      <link>http://msdn.microsoft.com/coding4fun/gamedevelopment/sudoku2/default.aspx</link>
+      <dc:creator>Lucas Magder</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Academics</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Game developers</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Audience">Students</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Development Language">C#</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Windows Vista</category>
+      <category domain="mscomdomain:Subject">Game development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework</category>
+      <mscom:attribute>e87cc971-f25b-4b16-9c30-7e734338e227</mscom:attribute>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>fa1dbc53-210e-4f0f-91d9-f9bf4a4de090</mscom:attribute>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>ab97f406-5423-4718-91a5-a7fbc3f3807d</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>8d7dd8d7-1ca6-4632-baef-e7c0750ed02e</mscom:attribute>
+      <mscom:attribute>bcd6e1eb-4147-462f-9121-17e6b7eaf555</mscom:attribute>
+      <mscom:attribute>de7bb609-3fd0-4b0f-865d-5ed2463ad5d0</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 21</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8174</guid>
+      <pubDate>Wed, 21 Jun 2006 17:06:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Speed Development With Custom Application Blocks For Enterprise Library</title>
+      <description>Learn how to build your own application block that integrates with the patterns &amp; practices Enterprise Library application blocks.</description>
+      <link>http://msdn.microsoft.com/msdnmag/issues/06/07/PatternsAndPractices/default.aspx</link>
+      <dc:creator>Mark Seemann</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Architects</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Subject">Patterns</category>
+      <category domain="mscomdomain:Subject">Practices</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework</category>
+      <mscom:attribute>7d762fab-5582-44dd-a92f-296efc636335</mscom:attribute>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>a21fd7b9-d606-4988-aab3-6d426ec71fd9</mscom:attribute>
+      <mscom:attribute>de7bb609-3fd0-4b0f-865d-5ed2463ad5d0</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 20</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8169</guid>
+      <pubDate>Tue, 20 Jun 2006 17:33:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>ASP.NET Atlas Powers the AJAX-Style Sites You’ve Been Waiting For</title>
+      <description>See how Atlas allows you to build AJAX-Style sites with this upcoming technology from ASP.NET.</description>
+      <link>http://msdn.microsoft.com/msdnmag/issues/06/07/AtlasAtLast/default.aspx</link>
+      <dc:creator>Matt Gibbs</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Web developers</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Subject">Web development</category>
+      <category domain="mscomdomain:Technology Versions">ASP.NET</category>
+      <mscom:attribute>25ef0eaf-938c-4761-b33f-7329eb045342</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>89a31131-6218-422f-aaa8-fbfc1dd76846</mscom:attribute>
+      <mscom:attribute>ecac57ed-dfd4-4675-9548-d4e55e84e51d</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 20</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8166</guid>
+      <pubDate>Tue, 20 Jun 2006 17:18:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tutorial 1: Creating a Data Access Layer</title>
+      <description>When building a Web application creating the DAL should be one of your first steps, occurring before you start creating your presentation layer. With Visual Studio, creating a DAL based on Typed DataSets is a task you can accomplish in 10-15 minutes.</description>
+      <link>http://msdn.microsoft.com/asp.net/reference/data/default.aspx?pull=/library/en-us/dnaspnettut/html/aspnet_tutorial01_dataaccesslayer_vb.asp</link>
+      <dc:creator>Scott Mitchell</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Database developers</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Web developers</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Code Language">Visual Basic</category>
+      <category domain="mscomdomain:Development Language">C#</category>
+      <category domain="mscomdomain:Development Language">Visual Basic</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">SQL Server 2005</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005</category>
+      <category domain="mscomdomain:Subject">Data access</category>
+      <category domain="mscomdomain:Subject">Web development</category>
+      <category domain="mscomdomain:Technology Versions">Active Server Pages</category>
+      <category domain="mscomdomain:Technology Versions">Visual Studio 2005</category>
+      <mscom:attribute>6f76860e-fe16-4756-be6b-a90e904530e4</mscom:attribute>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>25ef0eaf-938c-4761-b33f-7329eb045342</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>1652d9a4-f0b3-4630-acd5-56982ea750ab</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>9f07f9cc-c308-4ebf-a4e9-2b8530ab1ea8</mscom:attribute>
+      <mscom:attribute>29022715-77e2-4461-bb7d-bffb57672a3c</mscom:attribute>
+      <mscom:attribute>61eb79cb-a838-4ffc-b446-e10364b4cb12</mscom:attribute>
+      <mscom:attribute>89a31131-6218-422f-aaa8-fbfc1dd76846</mscom:attribute>
+      <mscom:attribute>3ad3e826-7964-4a59-ba93-48c24a53d2cf</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 20</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7794</guid>
+      <pubDate>Tue, 20 Jun 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The ADO.NET Entity Framework Overview - Making the Conceptual Level Real</title>
+      <description>Eliminate the impedance mismatch between data models and between languages that application developers would otherwise have to deal with with new features available in the upcoming version of ADO.NET.</description>
+      <link>http://msdn.microsoft.com/vstudio/default.aspx?pull=/library/en-us/dnvs05/html/ADONETEnFrmOvw.asp</link>
+      <dc:creator>Microsoft</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Database developers</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Code Language">Visual Basic</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio .NET</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework</category>
+      <category domain="mscomdomain:Technology Versions">ADO.NET</category>
+      <mscom:attribute>6f76860e-fe16-4756-be6b-a90e904530e4</mscom:attribute>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>1652d9a4-f0b3-4630-acd5-56982ea750ab</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>d3772fd7-3bff-4ac7-9939-c8ea63ae462f</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>de7bb609-3fd0-4b0f-865d-5ed2463ad5d0</mscom:attribute>
+      <mscom:attribute>706af9f6-c25b-478e-984b-51fa1bd18948</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 19</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8118</guid>
+      <pubDate>Mon, 19 Jun 2006 23:37:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Next-Generation Data Access: Making the Conceptual Level Real</title>
+      <description>Eliminate the impedance mismatch for both applications and data services like reporting, analysis, and replication offered as part of the SQL Server product by raising the level of abstraction from the logical level to the conceptual level.</description>
+      <link>http://msdn.microsoft.com/vstudio/default.aspx?pull=/library/en-us/dnvs05/html/nxtgenda.asp</link>
+      <dc:creator>José Blakeley; David Campbell; Jim Gray; S. Muralidhar; Anil Nori</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Database developers</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Code Language">Visual Basic</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio .NET</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework</category>
+      <category domain="mscomdomain:Technology Versions">ADO.NET</category>
+      <mscom:attribute>6f76860e-fe16-4756-be6b-a90e904530e4</mscom:attribute>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>1652d9a4-f0b3-4630-acd5-56982ea750ab</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>d3772fd7-3bff-4ac7-9939-c8ea63ae462f</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>de7bb609-3fd0-4b0f-865d-5ed2463ad5d0</mscom:attribute>
+      <mscom:attribute>706af9f6-c25b-478e-984b-51fa1bd18948</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 19</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8117</guid>
+      <pubDate>Mon, 19 Jun 2006 23:35:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Learn about Visual Studio Code Name "Orcas"</title>
+      <description>Find out more about Visual Studio Code Name “Orcas”, the upcoming release of Visual Studio for Windows Vista and the 2007 Office System.</description>
+      <link>http://msdn.microsoft.com/vstudio/future/default.aspx</link>
+      <dc:creator>Microsoft</dc:creator>
+      <category domain="mscomdomain:ContentType">Announcement</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework 2.0</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>bf0ebdd7-5d74-479a-b01e-d7b141200243</mscom:attribute>
+      <mscom:attribute>29022715-77e2-4461-bb7d-bffb57672a3c</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>ce1538e0-3dd9-4f14-b423-1d75e8f995b7</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article.gif</mscom:headlineIcon>
+      <mscom:contentType>Announcement</mscom:contentType>
+      <mscom:simpleDate>Jun 19</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8145</guid>
+      <pubDate>Mon, 19 Jun 2006 18:17:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Best Practices: Using Disposable Windows SharePoint Services Objects</title>
+      <description>Learn the appropriate ways to write your code when using Microsoft Windows SharePoint Services objects so that you can avoid retaining the objects in memory with the Microsoft .NET Framework.</description>
+      <link>http://msdn2.microsoft.com/en-us/ms778813(office.12).aspx</link>
+      <dc:creator>Mike Ammerlan, Scott Harris</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Architects</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Office developers</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Development Language">C#</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Microsoft Office 2007</category>
+      <category domain="mscomdomain:Product">Windows SharePoint Services</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <category domain="mscomdomain:Subject">Office solutions development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework 2.0</category>
+      <category domain="mscomdomain:Technology Versions">Office Programmability</category>
+      <mscom:attribute>7d762fab-5582-44dd-a92f-296efc636335</mscom:attribute>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>e9d74adb-1887-4b19-8b7f-99db2caa17e6</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>ffafb657-a876-40e5-950d-e44295cbcc2e</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:attribute>3a4e9862-cdce-4bdc-8664-91038e3eb1e9</mscom:attribute>
+      <mscom:attribute>ce1538e0-3dd9-4f14-b423-1d75e8f995b7</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 16</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7934</guid>
+      <pubDate>Fri, 16 Jun 2006 22:26:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Code Security Changes in Outlook 2007</title>
+      <description>Microsoft Office Outlook 2007 enhances code security to help protect Outlook users against malicious code while reducing security warnings for developers and users. Find out how these changes make developing and using Outlook solutions easier while mainta</description>
+      <link>http://msdn2.microsoft.com/en-us/ms778202(office.12).aspx</link>
+      <dc:creator>Ryan Gregg</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Office developers</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Code Language">Visual Basic</category>
+      <category domain="mscomdomain:Development Language">C#</category>
+      <category domain="mscomdomain:Development Language">Visual Basic</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Microsoft Office 2007</category>
+      <category domain="mscomdomain:Product">Microsoft Office Outlook 2007</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <category domain="mscomdomain:Subject">Office solutions development</category>
+      <category domain="mscomdomain:Subject">Security</category>
+      <category domain="mscomdomain:Technology Versions">Office Programmability</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>e9d74adb-1887-4b19-8b7f-99db2caa17e6</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>1652d9a4-f0b3-4630-acd5-56982ea750ab</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:attribute>3a4e9862-cdce-4bdc-8664-91038e3eb1e9</mscom:attribute>
+      <mscom:attribute>73d6a0e8-4c8c-4581-b133-aba8f833be32</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 16</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7822</guid>
+      <pubDate>Fri, 16 Jun 2006 22:10:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Outlook 2007 Sample Add-ins: Rules Add-in, Travel Agency Add-in, and Prepare for Meeting Add-in</title>
+      <description>Outlook 2007 introduces many enhancements to its object model that enable you to create richer solutions. Three sample add-ins, the Rules add-in, Travel Agency add-in, and Prepare for Meeting add-in are available in both Visual Basic .NET and C#.</description>
+      <link>http://msdn.microsoft.com/office/default.aspx?pull=/library/en-us/odc_ol2007_ta/html/filename.asp</link>
+      <dc:creator>Randy Byrne; Ryan Gregg</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Office developers</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Code Language">Visual Basic</category>
+      <category domain="mscomdomain:Development Language">C#</category>
+      <category domain="mscomdomain:Development Language">Visual Basic</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Microsoft Office Outlook 2007</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <category domain="mscomdomain:Subject">Office solutions development</category>
+      <category domain="mscomdomain:Technology Versions">Office Programmability</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>e9d74adb-1887-4b19-8b7f-99db2caa17e6</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>1652d9a4-f0b3-4630-acd5-56982ea750ab</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>29022715-77e2-4461-bb7d-bffb57672a3c</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:attribute>3a4e9862-cdce-4bdc-8664-91038e3eb1e9</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 15</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7924</guid>
+      <pubDate>Thu, 15 Jun 2006 22:20:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Walkthrough: Word 2007 XML Format</title>
+      <description>Walk through the new default file format for Microsoft Office Word 2007. Read detailed descriptions of the file format architecture, key components, and ways in which you can programmatically modify content.</description>
+      <link>http://msdn2.microsoft.com/en-us/ms771890(office.12).aspx</link>
+      <dc:creator>Erika Ehrli</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Office developers</category>
+      <category domain="mscomdomain:Code Language">Visual Basic</category>
+      <category domain="mscomdomain:Code Language">XML</category>
+      <category domain="mscomdomain:Development Language">VBA</category>
+      <category domain="mscomdomain:Development Language">XML</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Hardware">Laptop personal computers</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Microsoft Office</category>
+      <category domain="mscomdomain:Product">Microsoft Office 2007</category>
+      <category domain="mscomdomain:Product">Microsoft Office Developer</category>
+      <category domain="mscomdomain:Product">Microsoft Office Word</category>
+      <category domain="mscomdomain:Product">Microsoft Office Word 2007</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <category domain="mscomdomain:Subject">Office solutions development</category>
+      <category domain="mscomdomain:Technology Versions">XML/XSL</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>e9d74adb-1887-4b19-8b7f-99db2caa17e6</mscom:attribute>
+      <mscom:attribute>1652d9a4-f0b3-4630-acd5-56982ea750ab</mscom:attribute>
+      <mscom:attribute>4866d84c-e7d3-4f53-a0b3-3ef6396f1569</mscom:attribute>
+      <mscom:attribute>f059c905-6304-40da-ac2f-480fa464f47b</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>2016914c-7993-4ee9-94c9-eb0d6c1b5e43</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>3a4e9862-cdce-4bdc-8664-91038e3eb1e9</mscom:attribute>
+      <mscom:attribute>cf59e344-fb71-4b07-a6c9-2fb4a4e880ee</mscom:attribute>
+      <mscom:attribute>617c4d62-4061-4107-8d46-2a22fc6fa202</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 15</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_5167</guid>
+      <pubDate>Thu, 15 Jun 2006 22:02:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows Communication Foundation Bindings and Channels</title>
+      <description>Clemens Vasters explains what "bindings" are and how they control the construction of the Windows Communication Foundation channel stack at runtime and what that channel stack is to begin with.</description>
+      <link>http://msdn.microsoft.com/msdntv/episode.aspx?xml=episodes/en/20060615WCFCV/manifest.xml</link>
+      <dc:creator>Clemens Vasters</dc:creator>
+      <category domain="mscomdomain:ContentType">Multimedia Content</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Subject">Web Services</category>
+      <category domain="mscomdomain:Technology Versions">Windows Communication Foundation</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>92967984-6c65-4046-8833-b40638251211</mscom:attribute>
+      <mscom:attribute>5436c135-2d67-4c46-85b6-29346565d2f4</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/multimedia.gif</mscom:headlineIcon>
+      <mscom:contentType>Multimedia Content</mscom:contentType>
+      <mscom:simpleDate>Jun 15</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8127</guid>
+      <pubDate>Thu, 15 Jun 2006 19:22:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hosting the InfoPath 2007 Form Editing Environment in a Custom Web Form</title>
+      <description>Learn how to use the XmlFormView ASP.NET control, together with InfoPath Forms Services, to create custom Web pages to render Web-enabled, interactive InfoPath forms.</description>
+      <link>http://msdn2.microsoft.com/en-us/ms778201(office.12).aspx</link>
+      <dc:creator>Mike Talley</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Office developers</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Code Language">XML</category>
+      <category domain="mscomdomain:Development Language">C#</category>
+      <category domain="mscomdomain:Development Language">XML</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Microsoft Office 2007</category>
+      <category domain="mscomdomain:Product">Microsoft Office InfoPath 2007</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <category domain="mscomdomain:Subject">Office solutions development</category>
+      <category domain="mscomdomain:Subject">Web development</category>
+      <category domain="mscomdomain:Subject">XML</category>
+      <category domain="mscomdomain:Technology Versions">Active Server Pages 3.0</category>
+      <category domain="mscomdomain:Technology Versions">Office Programmability</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>e9d74adb-1887-4b19-8b7f-99db2caa17e6</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>4866d84c-e7d3-4f53-a0b3-3ef6396f1569</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:attribute>3a4e9862-cdce-4bdc-8664-91038e3eb1e9</mscom:attribute>
+      <mscom:attribute>89a31131-6218-422f-aaa8-fbfc1dd76846</mscom:attribute>
+      <mscom:attribute>ab40e0b9-2133-428c-aa16-ee41df8cd597</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 14</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7851</guid>
+      <pubDate>Wed, 14 Jun 2006 22:16:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>.NET Rocks! - Michael Stiefel Gets Us Into the Windows Workflow</title>
+      <description>Michael Stiefel talks to us about what the Windows Workflow Foundation is and why we want to use it.</description>
+      <link>http://msdn.microsoft.com/dotnetrocks/</link>
+      <dc:creator>Carl Franklin</dc:creator>
+      <category domain="mscomdomain:ContentType">Multimedia Content</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Technology Versions">WinFX</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>5283b61c-f2a7-492a-b2fa-c2a1207bf45d</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/multimedia.gif</mscom:headlineIcon>
+      <mscom:contentType>Multimedia Content</mscom:contentType>
+      <mscom:simpleDate>Jun 14</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8123</guid>
+      <pubDate>Wed, 14 Jun 2006 19:17:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Video Game Development: Learn to Write C# the Fun Way</title>
+      <description>Learn a fun way to write in C#!  Instructors from the DigiPen Institute of Technology introduce participants to the concepts of 3-D video game production in this on-demand webcast series.</description>
+      <link>http://go.microsoft.com/?linkid=4369209</link>
+      <category domain="mscomdomain:ContentType">Multimedia Content</category>
+      <category domain="mscomdomain:Audience">Game developers</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Development Language">C#</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">C#</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Subject">Game development</category>
+      <mscom:attribute>fa1dbc53-210e-4f0f-91d9-f9bf4a4de090</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>ed4263a6-cf84-4d66-b0fb-befccc28a9bd</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>bcd6e1eb-4147-462f-9121-17e6b7eaf555</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/multimedia.gif</mscom:headlineIcon>
+      <mscom:contentType>Multimedia Content</mscom:contentType>
+      <mscom:simpleDate>Jun 13</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8101</guid>
+      <pubDate>Tue, 13 Jun 2006 22:30:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Keep Sites Running Smoothly By Avoiding These 10 Common ASP.NET Pitfalls</title>
+      <description>Read about 10 of the pitfalls that can litter the path to releasing your production ASP.NET applications, and what you can do to avoid them.</description>
+      <link>http://msdn.microsoft.com/msdnmag/issues/06/07/WebAppFollies/default.aspx</link>
+      <dc:creator>Jeff Prosise</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Web developers</category>
+      <category domain="mscomdomain:Code Language">C#</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Subject">Web development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework</category>
+      <category domain="mscomdomain:Technology Versions">ASP.NET 2.0</category>
+      <mscom:attribute>25ef0eaf-938c-4761-b33f-7329eb045342</mscom:attribute>
+      <mscom:attribute>062b39c2-045e-43b0-aa91-b2f3b3b8b62e</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>89a31131-6218-422f-aaa8-fbfc1dd76846</mscom:attribute>
+      <mscom:attribute>de7bb609-3fd0-4b0f-865d-5ed2463ad5d0</mscom:attribute>
+      <mscom:attribute>29d6ae74-8a9f-4155-a9b9-1e8dd4dad810</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 13</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8099</guid>
+      <pubDate>Tue, 13 Jun 2006 22:20:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Project Glidepath public beta has launched!  </title>
+      <description>Visit http://www.projectglidepath.net to participate in the Microsoft MicroISV Evangelism program that delivers an in-Visual-Studio experience providing the workflow-based guidance, sample code and technology to create applications for Windows Vista.</description>
+      <link>http://www.projectglidepath.net</link>
+      <dc:creator>Microsoft</dc:creator>
+      <category domain="mscomdomain:ContentType">Announcement</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005</category>
+      <category domain="mscomdomain:Product">Windows Vista</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework 2.0</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>29022715-77e2-4461-bb7d-bffb57672a3c</mscom:attribute>
+      <mscom:attribute>8d7dd8d7-1ca6-4632-baef-e7c0750ed02e</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>ce1538e0-3dd9-4f14-b423-1d75e8f995b7</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Announcement</mscom:contentType>
+      <mscom:simpleDate>Jun 13</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8094</guid>
+      <pubDate>Tue, 13 Jun 2006 20:54:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>12 Finalists Announced in $10,000 Made in Express Contest</title>
+      <description>What do an all terrain self-maneuverable robot, an instant IM translator, and a curmudgeon chat bot all have in common?  Answer – they are all being built by finalists in the Made In Express Contest. Check out these cool projects!</description>
+      <link>http://go.microsoft.com/?linkid=4656419</link>
+      <category domain="mscomdomain:ContentType">Headline</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Express Edition</category>
+      <category domain="mscomdomain:Subject">Development tools</category>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>24853bda-fb66-4716-8bc8-88d26fdb57cb</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Headline</mscom:contentType>
+      <mscom:simpleDate>Jun 12</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_8052</guid>
+      <pubDate>Mon, 12 Jun 2006 16:43:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Get Your Applications Ready for Windows Vista</title>
+      <description>DevReadiness.org is the developer community site to help you get your applications ready for Windows Vista. Learn how to test your application for Windows Vista, and find simple remedies to fix the most common issues.</description>
+      <link>http://devreadiness.org</link>
+      <category domain="mscomdomain:ContentType">Reference</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Hardware">Laptop personal computers</category>
+      <category domain="mscomdomain:Hardware">Tablet PC</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Windows Vista</category>
+      <category domain="mscomdomain:Subject">Debugging</category>
+      <category domain="mscomdomain:Subject">Design</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <category domain="mscomdomain:Subject">Windows development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework 2.0</category>
+      <category domain="mscomdomain:Technology Versions">WinFX</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>2016914c-7993-4ee9-94c9-eb0d6c1b5e43</mscom:attribute>
+      <mscom:attribute>326a8ebe-6aad-424e-8112-fc501e640edd</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>8d7dd8d7-1ca6-4632-baef-e7c0750ed02e</mscom:attribute>
+      <mscom:attribute>f67be668-2920-44f8-a7c6-00eb65b1e14a</mscom:attribute>
+      <mscom:attribute>31dc8bba-f97c-47f8-ba6d-0c0ee5eaa32a</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:attribute>de7bb609-3fd0-4b0f-865d-5ed2463ad5d0</mscom:attribute>
+      <mscom:attribute>ce1538e0-3dd9-4f14-b423-1d75e8f995b7</mscom:attribute>
+      <mscom:attribute>5283b61c-f2a7-492a-b2fa-c2a1207bf45d</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Reference</mscom:contentType>
+      <mscom:simpleDate>Jun 9</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7976</guid>
+      <pubDate>Sat, 10 Jun 2006 02:44:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Introducing .NET Framework 3.0</title>
+      <description>Vice President S. Somasegar describes the decision to rename WinFX to the .NET Framework 3.0. Now the WinFX technology you know has a name that identifies it for exactly what it is – the next version of Microsoft’s developer framework.</description>
+      <link>http://blogs.msdn.com/somasegar/</link>
+      <dc:creator>S. Somasegar</dc:creator>
+      <category domain="mscomdomain:ContentType">Announcement</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Windows Vista</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework 2.0</category>
+      <category domain="mscomdomain:Technology Versions">WinFX</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>8d7dd8d7-1ca6-4632-baef-e7c0750ed02e</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>de7bb609-3fd0-4b0f-865d-5ed2463ad5d0</mscom:attribute>
+      <mscom:attribute>ce1538e0-3dd9-4f14-b423-1d75e8f995b7</mscom:attribute>
+      <mscom:attribute>5283b61c-f2a7-492a-b2fa-c2a1207bf45d</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Announcement</mscom:contentType>
+      <mscom:simpleDate>Jun 9</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7963</guid>
+      <pubDate>Fri, 09 Jun 2006 23:17:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Identity and Access Management Center</title>
+      <description>This center collects the most current information, tools and technology downloads, articles, media, and communities to aid developers in design, development, and testing of identity-aware, directory-enabled applications.</description>
+      <link>http://msdn.microsoft.com/security/identityaccess/default.aspx</link>
+      <dc:creator>Microsoft Corporation</dc:creator>
+      <category domain="mscomdomain:ContentType">Link</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Subject">Security</category>
+      <category domain="mscomdomain:Technology Versions">Active Directory</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>73d6a0e8-4c8c-4581-b133-aba8f833be32</mscom:attribute>
+      <mscom:attribute>2e759425-9c39-421a-b53c-3f78ca563707</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/offsite.gif</mscom:headlineIcon>
+      <mscom:contentType>Link</mscom:contentType>
+      <mscom:simpleDate>Jun 9</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7961</guid>
+      <pubDate>Fri, 09 Jun 2006 17:33:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Refactoring in Visual Basic 2005</title>
+      <description>Jay Schmelzer talks about source code refactoring and provides a demo of Refactor! for Visual Basic 2005, a free tool from Developer Express, Inc. that adds refactoring support to the Visual Basic 2005 development environment.</description>
+      <link>http://msdn.microsoft.com/msdntv/episode.aspx?xml=episodes/en/20060608VBasicJS/manifest.xml</link>
+      <dc:creator>Jay Schmelzer</dc:creator>
+      <category domain="mscomdomain:ContentType">Multimedia Content</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Product">Visual Basic 2005</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>50d914c0-6b92-4a50-abcd-e5644708a51a</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/multimedia.gif</mscom:headlineIcon>
+      <mscom:contentType>Multimedia Content</mscom:contentType>
+      <mscom:simpleDate>Jun 8</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7954</guid>
+      <pubDate>Fri, 09 Jun 2006 04:47:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The .NET Developer’s Guide to Identity</title>
+      <description>A roadmap for developers and architects who want to learn how to build identity-aware applications on the Windows platform. From authentication and authorization to federated identity, you’ll discover techniques that can be used today and in the future. </description>
+      <link>http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetserv/html/DotNetIdM.asp</link>
+      <dc:creator>Keith Brown</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <category domain="mscomdomain:Subject">Security</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:attribute>73d6a0e8-4c8c-4581-b133-aba8f833be32</mscom:attribute>
+      <mscom:attribute>de7bb609-3fd0-4b0f-865d-5ed2463ad5d0</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 8</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7556</guid>
+      <pubDate>Thu, 08 Jun 2006 23:13:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Visual Studio Team Edition for Software Developers </title>
+      <description>Describes the features available in Microsoft Visual Studio Team Edition for Software Developers for improving code quality.</description>
+      <link>http://msdn.microsoft.com/vstudio/teamsystem/default.aspx?pull=/library/en-us/dnvs05/html/VS2005TeamDev.asp</link>
+      <dc:creator>Eric Lee Microsoft Corporation</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Testers</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Team Edition for Software Developers</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Team System</category>
+      <category domain="mscomdomain:Subject">Development tools</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>535a16a7-3d0a-4e00-95b2-5448b0cb1299</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>5e71f2b5-52a4-4ed7-bc15-a9dff1d4b655</mscom:attribute>
+      <mscom:attribute>a6c84529-f794-440a-aea6-49dbf305155b</mscom:attribute>
+      <mscom:attribute>24853bda-fb66-4716-8bc8-88d26fdb57cb</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 8</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_2837</guid>
+      <pubDate>Thu, 08 Jun 2006 22:34:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Customize the Visual Studio 2005 Debugger Display of Your Data</title>
+      <description>Calvin Hsia illustrates ways to customize the Visual Studio 2005 Debugger to get the most out of your debugging time.</description>
+      <link>http://msdn.microsoft.com/vstudio/default.aspx?pull=/library/en-us/dnvs05/html/CstVSDbgDsplDt.asp</link>
+      <dc:creator>Calvin Hsia</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Academics</category>
+      <category domain="mscomdomain:Audience">Application developers</category>
+      <category domain="mscomdomain:Audience">Architects</category>
+      <category domain="mscomdomain:Audience">Component developers</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">Game developers</category>
+      <category domain="mscomdomain:Audience">Hobbyists</category>
+      <category domain="mscomdomain:Audience">ISVs</category>
+      <category domain="mscomdomain:Audience">Students</category>
+      <category domain="mscomdomain:Audience">Testers</category>
+      <category domain="mscomdomain:Audience">User experience designers</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005</category>
+      <category domain="mscomdomain:Product">Visual Studio 2005 Express Edition</category>
+      <category domain="mscomdomain:Subject">Debugging</category>
+      <mscom:attribute>e87cc971-f25b-4b16-9c30-7e734338e227</mscom:attribute>
+      <mscom:attribute>211d8bdf-f190-41f6-81b3-cf10434d04a8</mscom:attribute>
+      <mscom:attribute>7d762fab-5582-44dd-a92f-296efc636335</mscom:attribute>
+      <mscom:attribute>ba1b8238-ff24-4cee-879f-a611f36c8d8c</mscom:attribute>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>fa1dbc53-210e-4f0f-91d9-f9bf4a4de090</mscom:attribute>
+      <mscom:attribute>a5f2dce0-3926-44cd-8ec2-9ca2f9e5e031</mscom:attribute>
+      <mscom:attribute>95bed6e5-d609-422c-b0e1-6a1669340624</mscom:attribute>
+      <mscom:attribute>ab97f406-5423-4718-91a5-a7fbc3f3807d</mscom:attribute>
+      <mscom:attribute>535a16a7-3d0a-4e00-95b2-5448b0cb1299</mscom:attribute>
+      <mscom:attribute>53d936c6-6485-4fd6-abbc-a82e1a0dbc62</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>29022715-77e2-4461-bb7d-bffb57672a3c</mscom:attribute>
+      <mscom:attribute>eb30a627-b150-454f-9931-801d59144a66</mscom:attribute>
+      <mscom:attribute>f67be668-2920-44f8-a7c6-00eb65b1e14a</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 8</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7596</guid>
+      <pubDate>Thu, 08 Jun 2006 21:52:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Beyond Membership: Using the Provider Design Pattern For Custom Features</title>
+      <description>ASP.NET 2.0 offers an abstract membership API for adding authentication and membership management functionality to your applications with the Provider Pattern. Aaron Murrell shows how to implement it.</description>
+      <link>http://msdn.microsoft.com/asp.net/default.aspx?pull=/library/en-us/dnaspp/html/ATMPrvDsnPttrn.asp</link>
+      <dc:creator>Aaron Murrell</dc:creator>
+      <category domain="mscomdomain:ContentType">Technical article</category>
+      <category domain="mscomdomain:Audience">Academics</category>
+      <category domain="mscomdomain:Audience">Application developers</category>
+      <category domain="mscomdomain:Audience">Architects</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Audience">ISVs</category>
+      <category domain="mscomdomain:Audience">Students</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework 2.0</category>
+      <category domain="mscomdomain:Technology Versions">ASP.NET 2.0</category>
+      <mscom:attribute>e87cc971-f25b-4b16-9c30-7e734338e227</mscom:attribute>
+      <mscom:attribute>211d8bdf-f190-41f6-81b3-cf10434d04a8</mscom:attribute>
+      <mscom:attribute>7d762fab-5582-44dd-a92f-296efc636335</mscom:attribute>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>95bed6e5-d609-422c-b0e1-6a1669340624</mscom:attribute>
+      <mscom:attribute>ab97f406-5423-4718-91a5-a7fbc3f3807d</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>ce1538e0-3dd9-4f14-b423-1d75e8f995b7</mscom:attribute>
+      <mscom:attribute>29d6ae74-8a9f-4155-a9b9-1e8dd4dad810</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Technical article</mscom:contentType>
+      <mscom:simpleDate>Jun 8</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7595</guid>
+      <pubDate>Thu, 08 Jun 2006 21:51:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Identity and Access Management</title>
+      <description>The Identity and Access Management site features the most current information, tools/technology downloads, articles, media, and communities to aid developers in their design, development, and testing of identity-aware, directory-enabled applications.</description>
+      <link>http://msdn.microsoft.com/security/identityaccess/default.aspx</link>
+      <dc:creator>Microsoft Corporation</dc:creator>
+      <category domain="mscomdomain:ContentType">Link</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Subject">Security</category>
+      <category domain="mscomdomain:Technology Versions">Active Directory</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>73d6a0e8-4c8c-4581-b133-aba8f833be32</mscom:attribute>
+      <mscom:attribute>2e759425-9c39-421a-b53c-3f78ca563707</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/offsite.gif</mscom:headlineIcon>
+      <mscom:contentType>Link</mscom:contentType>
+      <mscom:simpleDate>Jun 8</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7946</guid>
+      <pubDate>Thu, 08 Jun 2006 20:06:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>.NET Rocks! - Brian Randell Checks In on Virtualization</title>
+      <description>Brian Randell talks about Virtual Machines today and tomorrow, and boasts a bit about his new monster of a machine. The discussion also touches on the rift between Microsoft and Adobe over PDF support in Office "12".</description>
+      <link>http://msdn.microsoft.com/dotnetrocks/</link>
+      <dc:creator>Carl Franklin</dc:creator>
+      <category domain="mscomdomain:ContentType">Multimedia Content</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Product">Microsoft Office 2007</category>
+      <category domain="mscomdomain:Subject">Development</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>14e8974c-87cf-45fa-979d-8344649f7d33</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/multimedia.gif</mscom:headlineIcon>
+      <mscom:contentType>Multimedia Content</mscom:contentType>
+      <mscom:simpleDate>Jun 7</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7959</guid>
+      <pubDate>Thu, 08 Jun 2006 04:53:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Join our slow chat on Visual C++</title>
+      <description>During the week of June 19th, the Visual C++ team will be hosting a slow chat titled "Visual C++: Yesterday, Today and Tomorrow" on CodeGuru (www.codeguru.com).  For this slow chat we’ll be discussing the history &amp; evolution of Visual C++. Please join us!</description>
+      <link>http://www.codeguru.com/forum/forumdisplay.php?f=89</link>
+      <dc:creator>Microsoft</dc:creator>
+      <category domain="mscomdomain:ContentType">Announcement</category>
+      <category domain="mscomdomain:Audience">Developers (general)</category>
+      <category domain="mscomdomain:Code Language">C++</category>
+      <category domain="mscomdomain:Development Language">C++</category>
+      <category domain="mscomdomain:Hardware">CPU</category>
+      <category domain="mscomdomain:Operating Systems">Windows</category>
+      <category domain="mscomdomain:Product">Visual C++ 2005</category>
+      <category domain="mscomdomain:Subject">.NET development</category>
+      <category domain="mscomdomain:Technology Versions">.NET Framework 2.0</category>
+      <mscom:attribute>8e4a08dc-5d95-4156-ab65-f22579a1592a</mscom:attribute>
+      <mscom:attribute>713ca60a-85bb-40a3-b4e9-6cd6e94244f8</mscom:attribute>
+      <mscom:attribute>8c401a6f-4d43-4643-9e8d-081dd7197669</mscom:attribute>
+      <mscom:attribute>11182676-d3c8-405d-bf7b-bf8604ca2c9e</mscom:attribute>
+      <mscom:attribute>f85157b2-879e-4900-963d-8f641c6c06f6</mscom:attribute>
+      <mscom:attribute>ca4ade30-05f8-48fb-94cd-4c7d08c9987f</mscom:attribute>
+      <mscom:attribute>ce1538e0-3dd9-4f14-b423-1d75e8f995b7</mscom:attribute>
+      <mscom:headlineImage/>
+      <mscom:headlineIcon>http://msdn.microsoft.com/msdn-online/shared/graphics/icons/article1.gif</mscom:headlineIcon>
+      <mscom:contentType>Announcement</mscom:contentType>
+      <mscom:simpleDate>Jun 7</mscom:simpleDate>
+      <guid isPermaLink="false">Titan_7943</guid>
+      <pubDate>Thu, 08 Jun 2006 00:38:02 GMT</pubDate>
+    </item>
+
+
+
+ 
+  </channel>
+</rss>

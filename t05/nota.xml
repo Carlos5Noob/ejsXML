@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="nota-02.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<nota>
+  <de>Ana</de> 
+  <para>Luis</para>
+  <tema>Reunión </tema>
+  <texto>Te recuerdo que mañana tenemos reunión a las 14:00 para bla, bla, bla..</texto>
+</nota>

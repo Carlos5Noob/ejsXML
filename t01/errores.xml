@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<examenes>
+	<test>
+		<nombre>
+			Nombre &lt;
+		</nombre>
+		<malAtributo prioridad="12">
+			Eso
+		</malAtributo>
+		<errorNombre>
+			Case sensitive
+		</errorNombre>
+		<noCerrado>
+			Eso, falta cierre
+		</noCerrado>
+		<desc>
+			<![CDATA[                 <equipo> BMW & Lotus</equipo>                 ]]>
+		</desc>
+	</test>
+	<test>
+		<pregunta>
+			Texto
+		</pregunta>
+	</test>
+</examenes>

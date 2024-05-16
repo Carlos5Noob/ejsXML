@@ -1,0 +1,26 @@
+<!ELEMENT filmoteca (propietario+, precioVenta?, peliculas*)>
+
+<!ELEMENT propietario (#PCDATA)>
+<!ELEMENT precioVenta (#PCDATA)>
+
+<!ELEMENT peliculas (pelicula+)>
+
+<!ELEMENT pelicula (titulo, tituloOriginal?, cartel, duracion, director, reparto, sinopsis)>
+
+<!ELEMENT tituloOriginal (#PCDATA)>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT cartel EMPTY>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+
+<!ELEMENT reparto (actor+)>
+
+<!ELEMENT actor (#PCDATA)>
+
+<!ELEMENT sinopsis (parrafo+)>
+<!ELEMENT parrafo (#PCDATA)>
+
+<!ATTLIST pelicula codigo ID #REQUIRED>
+<!ATTLIST cartel fuente CDATA #REQUIRED>
+<!ATTLIST tituloOriginal lang (en | es | fr) #IMPLIED>

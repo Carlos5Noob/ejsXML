@@ -1,0 +1,22 @@
+<!ELEMENT nota (fecha, urgente?, de, para+, (asunto|texto) )>
+
+<!ELEMENT fecha (dia, hora)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+
+<!ELEMENT urgente EMPTY>
+<!ELEMENT de (#PCDATA)>
+
+<!ATTLIST de id CDATA #IMPLIED>
+
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>
+
+<!ATTLIST texto idioma (es|en) #IMPLIED>
+
+
+<!ATTLIST nota leido CDATA "no"
+               borrar (si|no) #IMPLIED>
+
+<!ATTLIST para id ID #REQUIRED>

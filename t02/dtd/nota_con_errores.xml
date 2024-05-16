@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nota SYSTEM "nota.dtd">
+<nota>
+  <urgente/>
+  <!-- <de>Ana</de>  descomentar para corregir-->
+  <para>Luis</para>
+  <para>Alfredo</para>
+  <texto>Te recuerdo que mañana tenemos reunión a las 14:00 para bla, bla, bla..</texto>
+  <error>eso, este no existe</error> <!-- borrar para corregir -->
+</nota>

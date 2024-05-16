@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Comentario creado desde XSLT -->
+<elementoroot>
+  <hijo> Contenido textual </hijo>
+  <hijo> Nodo de Texto </hijo>
+</elementoroot>
