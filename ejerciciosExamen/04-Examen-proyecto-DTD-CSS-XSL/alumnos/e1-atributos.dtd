@@ -1,5 +1,17 @@
-<!-- 
- Fichero: e1-atributos.dtd
- Alumno: 
--->
+<!ELEMENT proyecto (datos_proyecto, dedicatoria?, apartado+)>
+<!ELEMENT datos_proyecto (titulo, autor+)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dedicatoria (parrafo+)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT apartado (titulo, seccion*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT seccion (titulo, parrafo*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
 
+<!ATTLIST proyecto lang (es|fr|ge|en) #REQUIRED>
+<!ATTLIST apartado id ID #REQUIRED>
+<!ATTLIST parrafo estilo (normal | cita | codigo) "normal">

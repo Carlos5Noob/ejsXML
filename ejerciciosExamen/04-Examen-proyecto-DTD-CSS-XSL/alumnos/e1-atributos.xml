@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- <?xml-stylesheet href="e1-estilos.css" type="text/css"?> -->
+<?xml-stylesheet href="e1-transforma.xsl" type="text/xsl"?>
+<?xml-model href="e1-atributos.dtd" type="application/xml-dtd"?>
+
 <proyecto lang="es">
   <datos_proyecto>
     <titulo>LMSGI</titulo>

@@ -3,3 +3,60 @@
   Alumno:
 */
 
+datos_proyecto titulo {
+  text-align: center;
+  color: blue;
+  display: block;
+  background-color: yellow;
+}
+
+autor {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+dedicatoria parrafo {
+  display: block;
+  text-align: right;
+  font-style: italic;
+  margin-right: 10em;
+}
+
+apartado > titulo {
+  display: block;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+apartado > titulo::before {
+  content: "Capítulo X ";
+}
+
+seccion titulo {
+  display: block;
+  border-bottom: 1px dotted black;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+parrafo {
+  display: block;
+  margin-bottom: 1em;
+}
+
+parrafo[estilo = "codigo"] {
+  border: 2px dotted blue;
+  padding: 1em;
+  margin: 2em;
+  font-family: Courier, monospace;
+}
+
+parrafo[estilo = "codigo"]::before {
+  display: block;
+  content: "Párrafo especial...";
+  color: red;
+  text-align: center;
+}
