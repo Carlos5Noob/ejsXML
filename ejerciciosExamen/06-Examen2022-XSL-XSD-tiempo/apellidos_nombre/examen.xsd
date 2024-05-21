@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="tiempo" type="Ttiempo"> </xs:element>
+
+    <xs:complexType name="Ttiempo">
+        <xs:sequence>
+            <xs:element name="fuente" type="Tfuente" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tfuente">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="web" type="xs:string"></xs:element>
+            <xs:element name="dato" type="Tdato" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute use="required" name="fiabilidad" type="xs:int"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="Tdato">
+        <xs:sequence>
+            <xs:element name="maxima" type="Tmaxima" minOccurs="0"></xs:element>
+            <xs:element name="minima" type="Tminima" minOccurs="0"></xs:element>
+            <xs:element name="fecha" type="xs:date"></xs:element>
+            <xs:element name="viento" type="Tviento" maxOccurs="4"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tmaxima">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute use="optional" name="escala" type="Tescala"></xs:attribute>
+            </xs:extension> 
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    <xs:complexType name="Tminima">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute use="optional" name="escala" type="Tescala"></xs:attribute>
+            </xs:extension> 
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="Tescala">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="C"></xs:enumeration>
+            <xs:enumeration value="F"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Ttemp">
+        <xs:restriction base="xs:int">
+            <xs:totalDigits value="2"></xs:totalDigits>
+        </xs:restriction>
+    </xs:simpleType>
+ 
+    <xs:complexType name="Tviento">
+        <xs:simpleContent>
+            <xs:extension base="Ttemp">
+                <xs:attribute name="hora" type="Thora"></xs:attribute>
+            </xs:extension> 
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="Thora">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([0][0-9]:[0-5][0-9])|([1][0-9]:[0-5][0-9])|([2][0-4]:[0-5][0-9])"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
