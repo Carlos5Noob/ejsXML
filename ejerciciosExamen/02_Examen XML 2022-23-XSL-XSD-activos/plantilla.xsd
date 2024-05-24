@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="activos" type="Tactivos"></xs:element>
+
+    <xs:complexType name="Tactivos">
+        <xs:sequence>
+            <xs:element name="director" type="xs:string"></xs:element>
+            <xs:element name="email" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="tel" type="Ttel" maxOccurs="2"></xs:element>
+            <xs:element name="edificio" type="Tedificio" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="Tintermedio">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="4"></xs:minLength>
+            <xs:maxLength value="12"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Ttel">
+        <xs:simpleContent>
+            <xs:extension base="Tintermedio">
+                <xs:attribute use="required" name="uso" type="Tatributo"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="Tatributo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="personal"></xs:enumeration>
+            <xs:enumeration value="empresa"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Tedificio">
+        <xs:sequence>
+            <xs:element name="url_localiza" type="xs:anyURI"></xs:element>
+            <xs:element name="elemento" type="Telemento" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="code" type="xs:ID"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="Telemento">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string   "></xs:element>
+            <xs:element name="serial_number" type="Tserial"></xs:element>
+            <xs:element name="cantidad" type="xs:int"></xs:element>
+            <xs:element name="tipo" type="xs:string" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="Tserial">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z]{2,3}-[0-9]{4}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+</xs:schema>

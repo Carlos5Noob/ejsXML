@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="plantilla.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="plantilla.xslt" type="text/xsl"?>
+
+<activos>
+  <director>Amanda Smith</director>
+  <email>amanda@local.com</email>
+  <tel uso="personal">6666644</tel>
+  <tel uso="empresa">4455</tel>
+  <edificio code="A-5">
+    <url_localiza>http://maps.local/bloque01</url_localiza>
+    <elemento>
+      <nombre>PC HP </nombre>
+      <serial_number>AS-1234</serial_number>
+      <cantidad>12</cantidad>
+      <tipo>sobremesa</tipo>
+      <tipo>renting</tipo>
+      <tipo>descatalogado</tipo>
+    </elemento>
+    <elemento>
+      <nombre>Teclados mecánicos </nombre>
+      <serial_number>NT-5378</serial_number>
+      <cantidad>2</cantidad>
+      <tipo>periféricos</tipo>
+      <tipo>renting</tipo>
+    </elemento>
+    <elemento>
+      <nombre>Impresora Laser </nombre>
+      <serial_number>IM-2344</serial_number>
+      <cantidad>1</cantidad>
+      <tipo>impresora</tipo>
+    </elemento>
+  </edificio>
+  <edificio code="A-1">
+    <url_localiza>http://maps.local/bloque02</url_localiza>
+    <elemento>
+      <nombre>Comprobador redes</nombre>
+      <serial_number>Tel-1234</serial_number>
+      <cantidad>6</cantidad>
+      <tipo>redes</tipo>
+    </elemento>
+    <elemento>
+      <nombre>Monitores</nombre>
+      <serial_number>MO-1234</serial_number>
+      <cantidad>12</cantidad>
+      <tipo>redes</tipo>
+    </elemento>
+    <elemento>
+      <nombre>Ratones</nombre>
+      <serial_number>CO-3456</serial_number>
+      <cantidad>4</cantidad>
+      <tipo>redes</tipo>
+    </elemento>
+    <elemento>
+      <nombre>Antenas</nombre>
+      <serial_number>Ant-2121</serial_number>
+      <cantidad>0</cantidad>
+      <tipo>redes</tipo>
+    </elemento>
+  </edificio>
+  <edificio code="A-20">
+    <url_localiza>http://maps.local/bloque03</url_localiza>
+  </edificio>
+</activos>

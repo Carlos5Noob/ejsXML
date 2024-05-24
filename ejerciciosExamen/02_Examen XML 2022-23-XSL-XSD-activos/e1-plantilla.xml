@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plantilla contacto="Amanda Smith - Tel empresa: 4455">
+  <localizaciones>
+    <map>1. Code: A-5 -  http://maps.local/bloque01</map>
+    <map>2. Code: A-1 -  http://maps.local/bloque02</map>
+    <map>3. Code: A-20 -  http://maps.local/bloque03</map>
+  </localizaciones>
+  <listado>
+    <!-- Edificio con código A-5-->
+    <item>PC HP (12) #AS-1234  Categorias: sobremesa, renting, descatalogado</item>
+    <item>Teclados mecánicos (2) #NT-5378  Categorias: periféricos, renting</item>
+    <!-- Edificio con código A-1-->
+    <item>Monitores(12) #MO-1234  Categorias: redes</item>
+    <item>Comprobador redes(6) #Tel-1234  Categorias: redes</item>
+    <item>Ratones(4) #CO-3456  Categorias: redes</item>
+    <!-- Edificio con código A-20-->
+  </listado>
+</plantilla>
